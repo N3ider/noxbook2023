@@ -1,0 +1,46 @@
+body{
+    background-color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Cabeçalho */
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    flex-direction: 1px solid #666 ;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+/* Grid de  Produtos*/
+.container{
+    background-color: #929292;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.product-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #666;
+    color: black;
+    border-top: 3px solid #3b3b3b;
+    text-align: center;
+    padding: 80px;
+}
